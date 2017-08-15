@@ -1,3 +1,5 @@
+Average activity per language track per day over the past 6 months.
+
  average |   language
 ---------+--------------
   124.05 | python
