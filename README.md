@@ -395,8 +395,6 @@ For a track to be included in the new site, it must have:
 
 We would also really love it if each core exercise unlocks at least one optional exercise.
 
-Please refer to the [Launching a language track](https://github.com/exercism/docs/tree/master/language-tracks/launch) guide which describes everything needed for including a track on the new site.
-
 We have a lot of work to do around recruiting mentors.
 Our goal is to have enough mentors on each track to handle the current active load of participants, plus 10%.
 We have not yet worked out exactly what that means in terms of raw numbers.
