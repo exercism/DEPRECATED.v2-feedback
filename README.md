@@ -416,6 +416,7 @@ If Go is your jam, then we have all sorts of things you can help out, primarily 
 Watch the repos, check out the issues, and help out with pull request reviews.
 
 We need help figuring out all the flows and edge cases for the interactive CLI-installation guide.
+The guide lives in a JSON file in the "walkthrough" directory of the [exercism/website-copy](https://github.com/exercism/website-copy/tree/master/walkthrough) repository.
 There's an open issue for it here: https://github.com/exercism/discussions/issues/170
 
 We need to put in place the high level bullet-points of what ideas we want to communicate on all the various pages.
