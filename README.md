@@ -317,8 +317,7 @@ Find the latest prerelease on the [exercism/cli releases page](https://github.co
 
 There's still quite a lot to be done on the CLI.
 
-The basic download and submit functions work, but not for all the intended use cases, and it's not very good at handling multiple tracks.
-It doesn't yet download other people's exercises to the right place.
+The basic download and submit functions work, but not for all the intended use cases, and it's not very good at handling multiple tracks intelligently. For now, if something doesn't work, try specifying which track you mean with the `--track` flag.
 
 You will need to run `configure` with `--token` and `--workspace` in order for the CLI to be functional.
 It's likely to break pretty spectacularly if you don't.
