@@ -38,6 +38,7 @@ This document lays out
     - [Improved onboarding](#improved-onboarding)
     - [Granular notifications](#granular-notifications)
     - [Improved deploys](#improved-deploys)
+    - [Redesigned command-line client](#redesigned-command-line-client)
   - [What does the prototype _not_ contain?](#what-does-the-prototype-not-contain)
   - [Beta testing plan](#beta-testing-plan)
     - [Who should get involved in the beta](#who-should-get-involved-in-the-beta)
@@ -235,24 +236,13 @@ This will avoid showing people a wall of text, most of which is irrelevant to th
 
 We'll also be developing an onboarding email series that people get after they've joined the site.
 
-In addition to improvements on the site, we're also rewriting the CLI.
-One thing that we've seen over and over again with people who are new to programming, is that they will copy/paste a series of commands, and something in the middle will fail.
-Beginners tend to not notice that some commands did not run, they just see output and assume they're done. They're also typically not able to troubleshoot if necessary.
-
-By default the new CLI will be optimized so that a new programmer only needs to know the commands to download an exercise and submit a solution.
-We will interactively ask them for any more information that we need along the way.
-It is very important to us to not annoy experienced users, however, so we are including additional commands, flags, and shortcuts for people who are comfortable on the command-line.
-We are also planning on including hooks for customization, which should let experienced users optimize their workflow.
-
 ##### Status
 
 We believe that the onboarding is sketched out correctly, but there is work to be done to flesh out the details.
 
 We have a working prototype for the interactive guide that walks people through installing the CLI, but it doesn't contain any of the actual workflows for any of the various platforms.
 
-Most of the copy still needs to be written, both on the site and in the CLI, which currently contains placeholder copy.
-
-The email series has not yet been implemented.
+Most of the copy still needs to be written, and the email series has not yet been implemented.
 
 #### Granular notifications
 
@@ -271,6 +261,68 @@ We'll be fixing this before the public launch so that you can update your prefer
 #### Improved deploys
 
 The old site has a truly horrendous deploy cycle, the result of which is that changes to language tracks can take a day (or several) to make it to the site. In the prototype, changes to track repositories get updated on the site every 5 minutes.
+
+#### Redesigned command-line client
+
+We're reworking the CLI to have a more uniform user interface, to allow us more control over the messaging, and to provide hooks for customization.
+
+One thing that we've seen over and over again with people who are new to programming, is that they will copy/paste a series of commands, and they won't notice if any of them didn't run.
+Often the last one will not run because there's a missing newline at the end of the final command.
+At other times, one of the commands will fail, causing the whole chain to grind to a halt.
+Beginners tend to not know how to tell if something didn't run.
+They'll see some output and assume they're done.
+They also don't have the experience necessary to troubleshoot even if they notice that something is wrong.
+
+One of the most important things that we are working on in the new CLI is to make it so that you have a single command to run to get started.
+We will then interactively ask for any information that we need in order to proceed.
+It is very important to us to not annoy experienced users, however, so we are including additional commands, flags, and shortcuts for people who are comfortable on the command-line.
+
+The old commands are a bit of a hodge podge, and we're removing some of them, renaming others, and even the ones that are named the same will have a different user interface.
+
+The most important commands are:
+
+**download (alias: d)**
+
+Download an exercise along with its solution, if it exists.
+
+```
+exercism download hello-world
+exercism download hello-world --track go
+exercism download --uuid c5c398c3-003d-2f80-f6dc-f7fdaaec75a0a655bed
+```
+
+The uuid can be one of your own, or someone elses.
+
+**submit (alias: s)**
+
+Submit a solution to the site.
+
+```
+exercism submit
+exercism submit hello-world
+exercism submit path/to/hello-world
+exercism submit file1 file2 ...
+```
+
+The submit command is becoming much more flexible with respect to how you can address it.
+If called without any arguments, it will submit the current directory.
+If called with the name of an exercise, it will find the exercise within your Exercism workspace and submit it.
+If it finds multiple exercises by that name, it will help disambiguate.
+You can still call it with a list of specific files as well.
+
+##### Status
+
+There's still quite a lot to be done on the CLI.
+
+The basic download and submit functions work, but not for all the intended use cases, and it's not very good at handling multiple tracks.
+It doesn't yet download other people's exercises to the right place.
+
+You will need to run `configure` with `--token` and `--workspace` in order for the CLI to be functional.
+It's likely to break pretty spectacularly if you don't.
+
+The copy/messaging is all placeholder copy, and much of it is missing.
+
+It is also entirely undocumented.
 
 ### What does the prototype _not_ contain?
 
