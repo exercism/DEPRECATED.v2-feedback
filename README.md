@@ -1,5 +1,6 @@
 **TL;DR:**
 - The new site is up on [v2.exercism.io](https://v2.exercism.io).
+- Download the prerelease version of the new CLI from [exercism/cli releases](https://github.com/exercism/cli/releases).
 - This beta is for Exercism maintainers, contributors, and power users.
 - We'd love to hear your gut reaction at [https://github.com/exercism/v2-feedback/issues/1](https://github.com/exercism/v2-feedback/issues/1).
 - Please read the rest of this before providing other feedback.
@@ -309,6 +310,8 @@ If called without any arguments, it will submit the current directory.
 If called with the name of an exercise, it will find the exercise within your Exercism workspace and submit it.
 If it finds multiple exercises by that name, it will help disambiguate.
 You can still call it with a list of specific files as well.
+
+Find the latest prerelease on the [exercism/cli releases page](https://github.com/exercism/cli/releases).
 
 ##### Status
 
