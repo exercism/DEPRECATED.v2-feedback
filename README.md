@@ -178,9 +178,15 @@ We will need to work out the ideal ratios once we have launched.
 
 Once a student has completed an exercise, they can decide whether or not to make it available to the broader Exercism community. If someone decides to make the solution available, they can also decide whether or not to include it in their public showcase.
 
+Even if you believe that you will not participate as a mentor when the site launches to the public, please try out the mentorship features during the beta period.
+
 ##### Status
 
 The basics of the mentorship relationship is in place, along with a dashboard for mentors.
+You can find this dashboard in the dropdown under your avatar in the top navigation.
+
+During the beta testing period we are automatically opting all beta testers into being a mentor when they first create their account in the prototype.
+In the final phase of beta testing we will turn this off so that we can test the actual user experience of not being a mentor, the calls to action to become one, and signing up.
 
 We have a ton of work to do in order to develop resources for mentors.
 Our goal is to provide mentors with the tools they need to provide high quality feedback quickly and effortlessly.
@@ -363,10 +369,6 @@ Therefore this beta is primarily for people who are already involved with Exerci
 We need people to test all aspects of the user experience, both as a learner and as a mentor.
 
 It's crucial that the experience is good whether you're using Exercism to learn a single language, or using it to learn many languages sequentially, or many languages at the same time.
-
-Even if you believe that you will not participate as a mentor when the site launches to the public, please try out the mentorship features during the beta period.
-During the beta testing period we are automatically opting all beta testers into being a mentor when they first create their account in the prototype.
-In the final phase of beta testing we will turn this off so that we can test the actual user experience of not being a mentor, the calls to action to become one, and signing up.
 
 The user interface of the command-line client has been almost entirely redone.
 We need to know if it breaks in spectacular or subtle ways.
