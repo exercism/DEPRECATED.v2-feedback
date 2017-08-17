@@ -223,7 +223,7 @@ The solutions can still be made available via browsing to the general Exercism a
 
 ##### Status
 
-A few details still need to be implemented, notably the blocking functionality.
+A few details still need to be implemented, notably the blocking functionality and ability to change avatar per track (at the moment it shows a blank image).
 
 While there is almost certainly more that can be done to help people feel safe, we believe that we've gotten the basics right.
 
