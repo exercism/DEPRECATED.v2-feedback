@@ -49,6 +49,12 @@ This document lays out
       - [Browsers and devices](#browsers-and-devices)
     - [Where to submit feedback](#where-to-submit-feedback)
     - [Other contributions](#other-contributions)
+      - [The language tracks](#the-language-tracks)
+      - [The CLI](#the-cli)
+      - [The interactive CLI installation guide](#the-interactive-cli-installation-guide)
+      - [Copywriting](#copywriting)
+      - [More copywriting](#more-copywriting)
+    - [A caveat](#a-caveat)
   - [Help prepare the language tracks for launch](#help-prepare-the-language-tracks-for-launch)
   - [Criteria for public launch](#criteria-for-public-launch)
 
@@ -411,19 +417,42 @@ Please ignore that for now.
 
 ### Other contributions
 
+#### The language tracks
+
 If you have time to contribute beyond testing and feedback, then we'd love _love_ **LOVE** :heart: your [help with the language tracks](#help-prepare-the-language-tracks-for-launch).
+
+#### The CLI
 
 We're rewriting the command-line client, and adding some tooling to help with track configuration.
 If Go is your jam, then we have all sorts of things you can help out, primarily in the [exercism/cli](https://github.com/exercism/cli) and [exercism/configlet](https://exercism/configlet) code bases.
 Watch the repos, check out the issues, and help out with pull request reviews.
 
-We need help figuring out all the flows and edge cases for the interactive CLI-installation guide.
+#### The interactive CLI installation guide
+
+We need help figuring out all the flows and edge cases for the interactive CLI-installation guide, a.k.a. the "Walkthrough".
 The guide lives in a JSON file in the "walkthrough" directory of the [exercism/website-copy](https://github.com/exercism/website-copy/tree/master/walkthrough) repository.
 There's an open issue for it here: https://github.com/exercism/discussions/issues/170
+
+#### Copywriting
 
 We need to put in place the high level bullet-points of what ideas we want to communicate on all the various pages.
 Once that is done, we would love help with writing site copy, polishing, and copyediting.
 The site copy lives in a separate repository at [exercism/website-copy](https://github.com/exercism/website-copy).
+
+#### More copywriting
+
+We want each language track to have an inviting and enticing landing page.
+
+This means we need help with two bits of copywriting, which we're calling the "blurb" and the "about". What we're aiming for is friendly and inviting. Imagine that you are sitting in a park, enthusiastically explaining to a friend why they should try out the language. So... not Wikipedia.
+
+Both of these pieces of content live in the respective language track repositories.
+
+- **Blurb:** Lives in `config.json`, should be about 30-ish words long.
+- **About:** Lives in `docs/ABOUT.md`, should be 2-3 paragraphs or so.
+
+To illustrate the tone that we're going for, take a look at [the Go track](https://v2.exercism.io/tracks/go) and [the R track](https://v2.exercism.io/tracks/r). We really like what they've got.
+
+### A caveat
 
 We're publishing the new codebase under the same license as the existing site but we're not looking for contributions to the site codebase at the moment.
 We know there's a lot of work to be done, but we've found that accepting design and usability contributions typically has a very high overhead that we don't have the bandwidth to deal with.
