@@ -3,7 +3,7 @@
 - Download the prerelease version of the new CLI from [exercism/cli releases](https://github.com/exercism/cli/releases).
 - This beta is for Exercism maintainers, contributors, and power users.
 - We'd love to hear your gut reaction at [https://github.com/exercism/v2-feedback/issues/1](https://github.com/exercism/v2-feedback/issues/1).
-- Please read the rest of this before providing other feedback.
+- Please read the rest of this before providing other feedback in the [v2-feedback issues](https://github.com/exercism/v2-feedback/issues).
 
 # Beta launch of the new Exercism website
 
@@ -398,6 +398,7 @@ If we turn out to be wrong, we should be able to adjust the site for mobile with
 ### Where to submit feedback
 
 We have created this repository specifically to collect feedback on the prototype.
+You can see feedback from others and post your own in the [issues](https://github.com/exercism/v2-feedback/issues).
 
 We're primarily looking for feedback on:
 
