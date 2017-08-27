@@ -425,7 +425,7 @@ If you have time to contribute beyond testing and feedback, then we'd love _love
 #### The CLI
 
 We're rewriting the command-line client, and adding some tooling to help with track configuration.
-If Go is your jam, then we have all sorts of things you can help out, primarily in the [exercism/cli](https://github.com/exercism/cli) and [exercism/configlet](https://exercism/configlet) code bases.
+If Go is your jam, then we have all sorts of things you can help out, primarily in the [exercism/cli](https://github.com/exercism/cli) and [exercism/configlet](https://github.com/exercism/configlet) code bases.
 Watch the repos, check out the issues, and help out with pull request reviews.
 
 #### The interactive CLI installation guide
