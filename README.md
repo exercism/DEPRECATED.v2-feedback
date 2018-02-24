@@ -402,7 +402,7 @@ You can see feedback from others and post your own in the [issues](https://githu
 
 We're primarily looking for feedback on:
 
-- major concerns—around user experience, usability, accessibility, or or inclusivity
+- major concerns—around user experience, usability, accessibility, or inclusivity
 - the new mentoring experience
 - rough spots or things that are confusing
 - anything that breaks in the new CLI
