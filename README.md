@@ -128,7 +128,7 @@ It also shows them all of the optional exercises, letting people filter on topic
 The maintainers of a track have a huge influence on the experience that a track provides.
 
 A great track will be a comprehensive introduction to the basics of a programming language.
-It will have a rich set of varied exercises that cover the bredth of both the language features themselves, as well as the standard library.
+It will have a rich set of varied exercises that cover the breadth of both the language features themselves, as well as the standard library.
 It will have a large number of optional exercises that explore parts of the language more in-depth.
 
 It is our hope that the user experience on the site is so good that it fades into the background, creating a place where the work of the maintainers can shine.
@@ -147,7 +147,7 @@ The goal is to achieve basic fluency in the syntax, data structures, standard li
 There is no competitive aspect designed into the product, and we've put a lot of effort into making sure that people can work at their own pace, focusing on the parts of the language that they need the most and are most interested in.
 
 Notice that we're not focusing on "artisans" as a core audience for the exercises themselves.
-Artisans are typically already fluent in a language, use it professionally, and care deeply about about the finer details of the language.
+Artisans are typically already fluent in a language, use it professionally, and care deeply about the finer details of the language.
 We believe that artisans will be able to enjoy the exercises and get a lot out of them, however we are not catering to their needs directly within the track progression.
 We are willing to design for them, but only to the extent that it doesn't detract from the two core audiences whose focus is basic fluency.
 
@@ -202,7 +202,7 @@ One of the tools that we will be repurposing to serve mentors rather than learne
 For learners, the impersonal and inflexible nature of the bot can detract from the learning experience.
 We believe that the learning process should be focusing on the human connections, and the bot fails at this—for obvious reasons.
 For mentors, however, impersonal is fine.
-Mentors need a quick list of pointers about what might be relevant feedback for a given solution, and are well-placed to make judegement calls about whether or not the issues detected by the bot are worth bringing up.
+Mentors need a quick list of pointers about what might be relevant feedback for a given solution, and are well-placed to make judgement calls about whether or not the issues detected by the bot are worth bringing up.
 
 Before we can launch we will need to do a massive mentorship drive across all the tracks.
 
